@@ -15,9 +15,9 @@ client.background       $bg
 
 for_window [class=".*"] border pixel 
 
-# Configure gaps
-gaps outer 10
-gaps inner 10
+# set initial gaps
+gaps outer 30
+gaps inner 15
 
 set $mod Mod4
 
