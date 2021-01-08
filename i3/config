@@ -92,3 +92,6 @@ bindsym $mod+Shift+Down gaps outer all minus 5
 bindsym $mod+Shift+Up gaps outer all plus 5
 bindsym $mod+Shift+Right gaps inner all minus 5
 
+#set split mode
+bindsym $mod+o split h
+bindsym $mod+p split v
