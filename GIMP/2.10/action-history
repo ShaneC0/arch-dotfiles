@@ -1,0 +1,9 @@
+# GIMP action-history
+
+(history-item "tools-opacity-decrease" 1)
+(history-item "tools-opacity-increase" 0)
+(history-item "tools-handle-transform" 4)
+(history-item "file-open" 0)
+(history-item "edit-copy" 1)
+
+# end of action-history

@@ -1,0 +1,43 @@
+[colors]
+fg = #ffc5cace
+bg = #ff2f343a
+
+
+[bar/mybar]
+height = 35
+background = ${colors.bg}
+foreground = ${colors.fg}
+
+locale = en_US.UTF-8
+radius = 10.0
+tray-position = left
+modules-right = alsa date
+modules-center = polywins
+line-size = 2
+modules-left = network
+
+[module/date]
+type = internal/date
+date = %Y-%m-%d%
+time = %H:%M
+label = %date% %time%
+
+[module/network]
+type = internal/network
+interface = wlp2s0u4
+interval = 3.0
+label-connected = %essid% Up: %upspeed% Down: %downspeed%
+label-disconnected = No connection established.
+
+[module/alsa]
+type = internal/alsa
+label-volume = %percentage%%
+label-muted = Muted
+
+[module/polywins]
+type = custom/script
+exec = ~/.config/polybar/scripts/polywins.sh 2>/dev/null
+format = <label>
+label = %output%
+label-padding = 1
+tail = true
