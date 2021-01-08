@@ -1,9 +1,7 @@
 [colors]
-# light = #ffc5cace
-# middle = #ff454c54
-# dark = #ff2f343a
 background = ${xrdb:color0:#222}
-foreground = ${xrdb:color7:#222}
+# foreground = ${xrdb:color7:#222}
+foreground = #eeffffff
 foreground-alt = ${xrdb:color7:#222}
 primary = ${xrdb:color1:#222}
 secondary = ${xrdb:color2:#222}
