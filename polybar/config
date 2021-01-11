@@ -36,7 +36,7 @@ type = internal/network
 background = ${colors.middle}
 interface = wlp2s0u4
 interval = 3.0
-label-connected = %essid% Up: %upspeed% Down: %downspeed%
+label-connected = %signal%% @ %essid% Up: %upspeed% Down: %downspeed%
 label-disconnected = No connection established.
 
 [module/alsa]
