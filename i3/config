@@ -66,6 +66,8 @@ bindsym $mod+Shift+c reload
 bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
 bindsym $mod+Shift+Escape exec "i3-nagbar -t warning -m 'FUCK FUCK FUCK FUCK FUCK FUCK FUCK' -B 'FUCK' 'i3-msg exit'"
+# lock screen
+bindsym $mod+Shift+x exec betterlockscreen -l
 
 # resize window 
 bindsym $mod+Left resize shrink width 10 px or 10 ppt

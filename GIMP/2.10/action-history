@@ -4,6 +4,7 @@
 (history-item "tools-opacity-decrease" 1)
 (history-item "tools-handle-transform" 2)
 (history-item "file-open" 2)
-(history-item "edit-copy" 1)
+(history-item "edit-copy" 0)
+(history-item "image-new" 1)
 
 # end of action-history
