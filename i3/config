@@ -65,21 +65,21 @@ bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
-bindsym $mod+Shift+Escape  exec i3-msg exit #exec "i3-nagbar -t warning -m 'FUCK FUCK FUCK FUCK FUCK FUCK FUCK' -B 'FUCK' 'i3-msg exit'"
+bindsym $mod+Shift+Escape  exec i3-msg exit
 # lock screen
 bindsym $mod+Shift+x exec betterlockscreen -l
 
 # resize window 
 bindsym $mod+Left resize shrink width 10 px or 10 ppt
+bindsym $mod+Right resize grow width 10 px or 10 ppt
 bindsym $mod+Down resize grow height 10 px or 10 ppt
 bindsym $mod+Up resize shrink height 10 px or 10 ppt
-bindsym $mod+Right resize grow width 10 px or 10 ppt
 
 # resize gaps
 bindsym $mod+Shift+Left gaps inner all minus 5
+bindsym $mod+Shift+Right gaps inner all plus 5
 bindsym $mod+Shift+Down gaps outer all minus 5
 bindsym $mod+Shift+Up gaps outer all plus 5
-bindsym $mod+Shift+Right gaps inner all plus 5
 
 
 #set split mode
