@@ -3,7 +3,7 @@
 # Use colors from pywal
 
 set_from_resource $fg i3wm.color7 #f0f0f0
-set_from_resource $bg i3wm.color2 #f0f0f0
+set_from_resource $bg i3wm.color2 #18A7FF
 
 # class                 border  backgr. text indicator child_border
 client.focused          $bg     $bg     $fg  $bg       $bg
@@ -17,7 +17,7 @@ client.background       $bg
 for_window [class=".*"] border pixel 2
 
 # set initial gaps
-gaps outer 30
+gaps outer 25
 gaps inner 15
 
 set $mod Mod4
